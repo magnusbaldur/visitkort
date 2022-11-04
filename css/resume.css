@@ -1,0 +1,35 @@
+.resume {
+
+    margin: auto;
+
+    width: 90%;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    align-items: flex-start;
+
+    justify-content: space-evenly;
+
+}
+
+.experience {
+
+    width: 70%;
+
+    flex-shrink: 2;
+
+}
+
+.resume aside{
+
+    display: flex;
+
+    flex-shrink: 0;
+
+    gap: 2em;
+
+    flex-direction: column;
+
+}
